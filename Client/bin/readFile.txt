@@ -1,0 +1,49 @@
+#Path
+C:\Users\Yuzuru\Desktop\Project_2
+
+# Nodes
+12
+
+# UID    Hostname    Port
+# Servers
+   1     localhost   3224
+   2     localhost   3225
+   3     localhost   3226
+   4     localhost   3227
+   5     localhost   3228   
+   6     localhost   3229
+   7     localhost   3230
+   
+#Clients
+   11     localhost   3231
+   12     localhost   3232
+   13     localhost   3233   
+   14     localhost   3234
+   15     localhost   3235
+   
+# quorums
+13
+# No'	UIDs
+ 	1	1	2	4	5
+ 	2	1	3	6	7
+ 	3	2	4	5	3	6	7
+ 	4	2	4
+ 	5	2	5
+ 	6	4	5
+ 	7	3	6
+ 	8	3	7
+ 	9	6	7
+ 	10	4
+ 	11	5
+ 	12	6
+ 	13	7
+ 	
+# Client to Server Connections
+5
+# Node neighbors
+	11	1	2	3	4	5	6	7
+	12	1	2	3	4	5	6	7
+	13	1	2	3	4	5	6	7
+	14	1	2	3	4	5	6	7
+	15	1	2	3	4	5	6	7	
+	
